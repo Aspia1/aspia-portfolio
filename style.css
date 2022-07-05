@@ -1,10 +1,15 @@
-body {
+body,
+footer {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .flex-section {
@@ -34,4 +39,43 @@ h1 {
     color: white;
     border-radius: 5px;
     font-weight: 500;
+}
+
+#first-section {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#second-section {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience {
+    display: flex;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border-left: 5px solid blue;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 80px;
+
+
+    box-shadow: 10px 10px 40px gray;
+}
+
+footer {
+    text-align: center;
 }
