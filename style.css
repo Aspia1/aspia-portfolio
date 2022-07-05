@@ -66,7 +66,6 @@ h2 {
     padding-right: 5%;
     padding-top: 10px;
     padding-bottom: 50px;
-    border-left: 5px solid blue;
     margin-top: 50px;
     margin-left: 5%;
     margin-right: 5%;
@@ -78,4 +77,14 @@ h2 {
 
 footer {
     text-align: center;
+}
+
+#exp-one {
+    border-left: 5px solid tomato;
+
+}
+
+#exp-two {
+    border-left: 5px solid blue;
+
 }
